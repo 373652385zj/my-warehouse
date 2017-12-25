@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>松鼠仓-发型匹配</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/fabricV2/fabric.js"></script>
+    <script src="js/underscore.js"></script>
+    <script src="js/layer.js"></script>
+    <!--<script src="js/rangeslider.js-2.3.0/rangeslider.min.js"></script>-->
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="css/hair.css" />
+    <!--<link rel="stylesheet" href="js/rangeslider.js-2.3.0/rangeslider.css">-->
+
+</head>
+
+<body style="height: 100vh;margin: 0;padding: 0 10px;box-sizing: border-box;overflow: hidden">
+<img src="img/man1.png" class="none" id="manModel" data-id="man"/>
+<img src="img/woman.png" class="none" id="womanModel" data-id="women"/>
+
+
+<div class="top-container">
+    <div style="background: rgba(255,255,255,.9);text-align: center;padding: 10px">
+        <div style="width: 42px;height:42px;position: absolute; left: 5px;top: 0px;"
+             onclick="handleClickGoBack()"
+        >
+            <img
+                 style="width: 8px;margin-top: 14px;"
+                 src="img/backIcon.png" alt="">
+        </div>
+        <span>魔镜</span>
+    </div>
+    <div style="position: relative;padding: 7px;box-sizing: border-box">
+        <div style="position: absolute;left: 10px;" onclick="changeModel()" id="manOrWoman">
+            <!--<span class="keyWord" style="display: none">换女模</span>-->
+            <img class="keyWord" src="./img/icon_girl.png">
+        </div>
+        <div style="width: 50px; margin: 0 auto;" onclick="callCamera()">
+            <img class="camera" src="./img/icon_camera.png" alt="照相机">
+        </div>
+        <div style="position: absolute;top:7px;right: 10px;width: 40px;" onclick="saveImage()">
+            <img class="save" src="./img/icon_save.png" alt="保存">
+        </div>
+
+    </div>
+</div>
+
+<canvas id="panel">
+
+</canvas>
+
+<div id="imgWrap" style="overflow-x: scroll;background-color: #eee;width: 100%;
+position: fixed;bottom: 0;left: 0;height: 136px;">
+    <div id="imgScroll" style="height: 87px;overflow: hidden;">
+
+    </div>
+    <div id="colorHair" style="height: 87px;overflow: hidden;display:none;">
+        <!--<label for="hue-value">色调：</label>-->
+        <!--<div class="progress">-->
+            <!--<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>-->
+            <!--<div class="progress-bar-slider"></div>-->
+        <!--</div>-->
+        <!--<input type="range" name="hue-value" id="hue-value" value="0" min="-2" max="2" step="0.002" class="hue-input"/>-->
+
+    </div>
+    <div style="width: 100%;padding: 10px 0; text-align: center;background: white;position: fixed;bottom: 0;">
+        <div class="changeTab redBtn" style="width: 48%;display: inline-block;" onclick="changeHairBox(1)">热门发型</div>
+        <div class="changeTab" style="width: 48%;display: inline-block;" onclick="changeHairBox(2)">发色调整</div>
+    </div>
+</div>
+
+<script id="hairImgTemplate" type="text/html">
+    <div style="float: left;background-color: white;width: 74px;height: 83px;margin: 0 2px;
+    position:relative;text-align: center;padding-top: 5px;box-sizing: border-box;overflow: hidden;"
+         onclick="changeHair(this)" data-isGenerated="<%- isGenerated %>"
+    >
+        <img src="<%- url %>" style="width: 65%;height: auto;">
+    </div>
+</script>
+
+<script src="js/func.js"></script>
+<script>
+
+  //TODO 大小及高度后面统一设置，以适应不同的屏幕高度
+  //1、设置头发位置，默认放到头上
+
+  $(function () {
+
+
+
+    var pageWidth = $(window).width()
+    var pageHeight = $(window).height();
+
+    if (pageWidth > 370){
+      $("body").css({
+        "padding-left": "20px",
+        "padding-right" : "20px"
+      });
+
+      canvasPadding = 40;
+    }
+
+    var rate = getRate();
+    // + 100 留给生成的二维码。
+    var height = rate * 960 + 130;
+
+    canvas = new fabric.Canvas('panel')
+    canvas.setBackgroundColor('white');
+
+
+
+    canvas.setDimensions({
+      width: pageWidth - canvasPadding,
+      height: height,
+      top: 55,
+    })
+    canvas.allowTouchScrolling = true
+
+    var modelArr = ["manModel","womanModel"];
+    modelArr.forEach(function (str) {
+      fabric.Image.fromURL(document.getElementById(str).getAttribute("src"),function (tmpImg) {
+          tmpImg.scaleX = rate;
+          tmpImg.scaleY =  rate;
+          tmpImg.top = topPosition;
+          tmpImg.id = document.getElementById(str).getAttribute("data-id") ;
+          if (tmpImg.id.indexOf("women") >= 0){
+            tmpImg.width = 0;
+          }
+
+          tmpImg.selectable = false;
+
+          canvas.add(tmpImg);
+      })
+    })
+
+    // fabric.Image.fromURL(document.getElementById('manModel').getAttribute("src"), function (tmpImg) {
+    //   tmpImg.scaleX = rate;
+    //   tmpImg.scaleY =  rate;
+    //   tmpImg.top = topPosition;
+    //   tmpImg.id = "man";
+    //   tmpImg.selectable = false;
+    //   canvas.add(tmpImg);
+    // })
+    //
+    // fabric.Image.fromURL(document.getElementById('womanModel').getAttribute("src"),function (tmpImg) {
+    //
+    //   tmpImg.scaleX = rate;
+    //   tmpImg.scaleY =  rate;
+    //   tmpImg.top = topPosition;
+    //   tmpImg.id = "women";
+    //   tmpImg.width = 0;
+    //   tmpImg.selectable = false;
+    //
+    //   canvas.add(tmpImg);
+    // })
+
+    changeModel();
+
+    $('.canvas-container').css('height', '460px')
+    $('.canvas-container').css('overflow', 'hidden')
+//    $('input[type="range"]').rangeslider();
+
+  })
+
+  function handleClickGoBack () {
+      // TODO: 明日测试内容
+    console.log("点击了返回按钮");
+    window.location.href = '/beauty' + "/"
+  }
+
+  function changeHairBox (index) {
+    if (index === 1) {
+      $('#imgScroll').show()
+      $('#colorHair').hide()
+      $('.changeTab').eq(0).addClass('redBtn')
+      $('.changeTab').eq(1).removeClass('redBtn')
+    } else {
+
+      if (!hairCanvas){
+        layer.tips('请先选择发型奥！', '.changeTab',{
+          offset: ['100px', '50px']
+        });
+        return;
+      }
+
+      $('#imgScroll').hide()
+      $('#colorHair').show()
+
+      $('.changeTab').eq(0).removeClass('redBtn')
+      $('.changeTab').eq(1).addClass('redBtn')
+    }
+  }
+
+
+</script>
+
+
+</body>
+</html>
