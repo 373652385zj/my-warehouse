@@ -176,6 +176,8 @@ function saveImage () {
   //   top: 0
   // })
   // canvas.renderAll()
+  //   $(".canvas-container").css("overflow","unset")
+  //   $(".canvas-container").css("z-index","99")
 
   if (config.isErCodeAdded) {
     window.location.href = 'songshucang://webview?action=getCanvasData'
