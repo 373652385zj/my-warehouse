@@ -89,7 +89,7 @@ position: fixed;bottom: 0;left: 0;height: 136px;">
 
 
 
-    var pageWidth = $(window).width()
+    var pageWidth = $(window).width();
     var pageHeight = $(window).height();
 
     if (pageWidth > 370){
@@ -105,7 +105,7 @@ position: fixed;bottom: 0;left: 0;height: 136px;">
     // + 100 留给生成的二维码。
     var height = rate * 960 + 130;
 
-    canvas = new fabric.Canvas('panel')
+    canvas = new fabric.Canvas('panel');
     canvas.setBackgroundColor('white');
 
 
@@ -115,7 +115,7 @@ position: fixed;bottom: 0;left: 0;height: 136px;">
       height: height,
       top: 55,
     })
-    canvas.allowTouchScrolling = true
+    canvas.allowTouchScrolling = true;
 
     var modelArr = ["manModel","womanModel"];
     modelArr.forEach(function (str) {
