@@ -1,169 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644ddae5-9172-4254-9ea6-5c7f22d99e1e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/asset-manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/docLoadPic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/cameraTest.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/changeHair.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/css/css.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/css/css.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/css/hair.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/css/reset.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/fabric.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/backIcon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/dowload-er-code.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairChangeBottom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/38.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/39.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/man/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/38.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/39.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/41.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/43.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/44.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/45.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/46.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/49.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/hairCroped/woman/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/icon_boy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/icon_camera.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/icon_girl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/icon_save.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/man1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/man2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/mirror_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/img/woman.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/jTest.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/js/fabricV2/fabric.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/js/fabricV2/fabric.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/js/func.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/js/layer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/js/mobile/layer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/js/mobile/need/layer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/js/rangeslider.js-2.3.0/rangeslider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/js/rangeslider.js-2.3.0/rangeslider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/js/rangeslider.js-2.3.0/rangeslider.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/js/theme/default/icon-ext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/js/theme/default/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/js/theme/default/layer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/js/theme/default/loading-0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/js/theme/default/loading-1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/js/theme/default/loading-2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/js/underscore-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/hair/js/underscore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/jquery-3.2.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/jquery.slim.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/jquery.slim.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/jquery.slim.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/service-worker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/css/main.903abd93.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/css/main.903abd93.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/js/main.448e292e.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/js/main.448e292e.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/Nearbynews-Head-portrait-four.34b69e0f.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/Nearbynews-Head-portrait-one.100e17c1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/Nearbynews-Head-portrait-three.b378f940.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/Nearbynews-Head-portrait-two.5f410016.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/bg.80e5f785.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/fontawesome-webfont.674f50d2.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/fontawesome-webfont.912ec66d.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/fontawesome-webfont.af7ae505.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/fontawesome-webfont.b06871f2.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/fontawesome-webfont.fee66e71.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/homepage-haircut1.070c6799.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/homepage-haircut2.98e70fe8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/homepage-haircut3.9e4cb92a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/homepage-haircut4.408f4e2e.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/page_Authenticationbanner.aae0d55f.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/page_hairbanner.e36ea564.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/shopPic.2000fba4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/shopPic1.646eff04.jpg" afterPath="" />
-    </list>
+    <list default="true" id="644ddae5-9172-4254-9ea6-5c7f22d99e1e" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -206,8 +44,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1029" />
-    <option name="width" value="891" />
+    <option name="x" value="983" />
+    <option name="width" value="937" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
@@ -356,7 +194,7 @@
       <updated>1514346955054</updated>
       <workItem from="1514346956183" duration="596000" />
       <workItem from="1514347816407" duration="2835000" />
-      <workItem from="1514430363378" duration="643000" />
+      <workItem from="1514430363378" duration="803000" />
     </task>
     <task id="LOCAL-00001" summary="修改了搜索页面的点击范围">
       <created>1514347971478</created>
@@ -369,11 +207,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4074000" />
+    <option name="totallyTimeSpent" value="4234000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1029" y="0" width="891" height="1040" extended-state="1" />
-    <editor active="true" />
+    <frame x="983" y="0" width="937" height="1040" extended-state="1" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -382,12 +219,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34055355" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.322691" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
